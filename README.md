@@ -3,8 +3,9 @@
 
 ## 1. Seleccionar fuente: https://fonts.google.com/
 
+```
 library(showtext)
-
+```
 
 
 ```
@@ -15,10 +16,15 @@ showtext_auto(enable = TRUE)
 ```
 
 
+<br />
+<br />
+
 ## 2. Aplicarlo
 
 - Sin tema
 
+
+```
 Data11 %>% 
   ggplot(
     data = .
@@ -30,11 +36,11 @@ Data11 %>%
   theme(
     text = element_text(size = 16, family = "Smooch")
   )
-
+```
 
 
 - Con un tema definido
-
+```
 Data11 %>% 
   ggplot(
     data = .
@@ -47,3 +53,6 @@ Data11 %>%
     base_family = "Smooch"
     , base_size = 20
   )
+```
+
+
