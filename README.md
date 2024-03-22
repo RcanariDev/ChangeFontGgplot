@@ -21,10 +21,7 @@ showtext_auto(enable = TRUE)
 
 ## 2. Aplicarlo
 
-
-
-
-
+<br />
 
 - Sin tema
 
