@@ -5,10 +5,14 @@
 
 library(showtext)
 
+
+
+```
 font_add_google(family="Smooch", "Smooch", db_cache = TRUE)
 fpath <- systemfonts::font_info(family = "Font Awesome 6 Brands")[["path"]]
 font_add(family = "fa-brands", regular = fpath)
 showtext_auto(enable = TRUE)
+```
 
 
 ## 2. Aplicarlo
