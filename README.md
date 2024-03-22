@@ -1,7 +1,7 @@
 # Change font name in ggplot
 
 
-## 1. Seleccionar fuente: https://fonts.google.com/
+## 1. Seleccionar fuente: [Fuentes de google](https://fonts.google.com/)
 
 ```
 library(showtext)
